@@ -1,0 +1,48 @@
+$light-grey: hsl(0, 0%, 80%);
+
+#quote-box {
+    background-color: $light-grey;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: gray 0px 0px 5px 5px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+    width: 35%;
+
+    #quote {
+        padding: 20px 20px 0px 20px;
+        text-align: center;    
+    }
+
+    #author {
+        padding: 0 30px;
+        text-align: right;
+    }
+}
+
+#quote-box-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+    button, a {
+        outline: none;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: white;
+        padding: 5px;
+        text-decoration: none;
+        font-style: normal;
+        color: black;
+    }
+
+    #new-quote {
+        width: 8em;
+        align-self: flex-end;
+    }
+}
