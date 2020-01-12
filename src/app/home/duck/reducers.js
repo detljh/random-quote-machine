@@ -1,20 +1,17 @@
-import NEW_QUOTE from './types.js';
+import types from './types.js';
 
 const data = require('../../../quotes.json');
-
 const INITIAL_STATE = {
-    data: data,
-    quote: ''
+    quote: data[0]
 };
 
 const homeReducer = (state=INITIAL_STATE, action) => {
     switch (action.type) {
-        case NEW_QUOTE: 
+        case types.NEW_QUOTE: 
             return {
-                data: data,
                 quote: action.quote
             };
-        default:        
+        default:       
             return state;
     };
 };

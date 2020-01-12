@@ -4,9 +4,9 @@ import { homeOperations } from './duck';
 
 const mapStateToProps = state => {
     return {
-        quote: state.quote,
-        author: state.author
-    }
+        quote: state.home.quote.quote,
+        author: state.home.quote.author
+    };
 };
 
 const mapDispatchToProps = dispatch => {
