@@ -1,11 +1,11 @@
 import Creators from './actions.js';
 
 const requestNewQuoteAction = Creators.requestNewQuote;
-const quotes = require('../../../quotes.json');
 
 const generateQuote = () => {
-    return dispatch => {
-        const quote = quotes[Math.floor(Math.random() * quotes.length)];
+    return (dispatch, getState) => {
+        const data = getState().home.data;
+        const quote = data[Math.floor(Math.random() * data.length)];
         dispatch(requestNewQuoteAction(quote));
     };  
 };
