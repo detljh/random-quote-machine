@@ -1,2 +1,2 @@
 export default ['lime-theme', 'red-theme', 'cyan-theme', 'purple-theme', 'yellow-theme', 'green-theme', 
-'royal-blue-theme', 'pink-theme'];
+'royal-blue-theme', 'pink-theme', 'orange-theme', 'dark-pink-theme', 'forest-green-theme', 'crimson-theme', 'dark-violet-theme'];

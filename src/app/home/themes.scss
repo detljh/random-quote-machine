@@ -1,7 +1,7 @@
 $transition-time: 0.5s ease-in-out;
 
 .lime-theme {
-    $theme-color: hsl(90, 50%, 50%);
+    $theme-color: hsl(90, 50%, 47%);
     background-color: $theme-color;
     transition: background-color $transition-time;
     
@@ -34,7 +34,7 @@ $transition-time: 0.5s ease-in-out;
 }
 
 .cyan-theme {
-    $theme-color: hsl(180, 50%, 50%);
+    $theme-color: hsl(180, 50%, 47%);
     background-color: $theme-color;
     transition: background-color $transition-time;
 
@@ -129,3 +129,82 @@ $transition-time: 0.5s ease-in-out;
     }
 }
 
+.orange-theme {
+    $theme-color: hsl(15, 50%, 50%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.dark-pink-theme {
+    $theme-color: hsl(347, 55%, 44%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.forest-green-theme {
+    $theme-color: hsl(157, 84%, 20%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.crimson-theme {
+    $theme-color: hsl(0, 84%, 20%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.dark-violet-theme {
+    $theme-color: hsl(268, 84%, 20%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
