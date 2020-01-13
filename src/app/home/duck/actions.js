@@ -1,11 +1,13 @@
 import types from './types.js';
 
-const requestNewQuote = (quoteObject, index) => ({
+const requestNewQuote = (quoteObject, quoteIndex, theme, themeIndex) => ({
     type: types.NEW_QUOTE,
     quote: quoteObject,
-    currentIndex: index
+    quoteIndex: quoteIndex,
+    theme: theme,
+    themeIndex: themeIndex
 });
 
 export default { 
-    requestNewQuote 
+    requestNewQuote
 };

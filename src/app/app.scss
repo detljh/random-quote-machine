@@ -1,7 +1,7 @@
-$colors: red, blue, black;
+@import 'home/quote-block.scss';
 
-#container {
-  height: 100%;
-  background-color: black;
-  display: block;
+.container-fluid {
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
 }

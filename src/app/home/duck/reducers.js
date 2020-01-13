@@ -1,12 +1,17 @@
 import types from './types.js';
+import THEMES from '../themes.js';
 
 const data = require('../../../quotes.json');
-const initialIndex = Math.floor(Math.random() * data.length);
+const quoteIndex = Math.floor(Math.random() * data.length);
+const themeIndex = Math.floor(Math.random() * THEMES.length);
+
 const INITIAL_STATE = {
     data: data,
-    currentIndex: initialIndex,
-    quote: data[initialIndex],
-    
+    quoteIndex: quoteIndex,
+    quote: data[quoteIndex],
+    themes: THEMES,
+    themeIndex: themeIndex,
+    theme: THEMES[themeIndex]
 };
 
 const homeReducer = (state=INITIAL_STATE, action) => {
@@ -14,7 +19,9 @@ const homeReducer = (state=INITIAL_STATE, action) => {
         case types.NEW_QUOTE: 
             return Object.assign({}, state, {
                 quote: action.quote,
-                currentIndex: action.currentIndex
+                quoteIndex: action.quoteIndex,
+                themeIndex: action.themeIndex,
+                theme: action.theme
             });
         default:       
             return state;

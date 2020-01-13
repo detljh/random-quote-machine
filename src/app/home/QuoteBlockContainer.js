@@ -5,7 +5,8 @@ import { homeOperations } from './duck';
 const mapStateToProps = state => {
     return {
         quote: state.home.quote.quote,
-        author: state.home.quote.author
+        author: state.home.quote.author,
+        theme: state.home.theme
     };
 };
 

@@ -1,0 +1,106 @@
+$transition-time: 0.5s ease-in-out;
+
+.lime-theme {
+    $theme-color: hsl(90, 50%, 50%);
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.red-theme {
+    $theme-color: hsl(0, 50%, 50%);
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.cyan-theme {
+    $theme-color: hsl(180, 50%, 50%);
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.purple-theme {
+    $theme-color: hsl(270, 50%, 50%);
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.yellow-theme {
+    $theme-color: hsl(45, 50%, 50%);
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.green-theme {
+    $theme-color: hsl(135, 50%, 50%);
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.royal-blue-theme {
+    $theme-color: hsl(225, 50%, 50%);
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
+.pink-theme {
+    $theme-color: hsl(315, 50%, 50%);
+    button, a {
+        background-color: $theme-color;
+        transition: background-color $transition-time;
+    }
+
+    #quote, .quote-icon, #author {
+        color: $theme-color;
+        transition: color $transition-time;
+    }
+}
+
