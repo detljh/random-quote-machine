@@ -2,6 +2,10 @@ $transition-time: 0.5s ease-in-out;
 
 .lime-theme {
     $theme-color: hsl(90, 50%, 50%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+    
+
     button, a {
         background-color: $theme-color;
         transition: background-color $transition-time;
@@ -15,6 +19,9 @@ $transition-time: 0.5s ease-in-out;
 
 .red-theme {
     $theme-color: hsl(0, 50%, 50%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
     button, a {
         background-color: $theme-color;
         transition: background-color $transition-time;
@@ -28,6 +35,9 @@ $transition-time: 0.5s ease-in-out;
 
 .cyan-theme {
     $theme-color: hsl(180, 50%, 50%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
     button, a {
         background-color: $theme-color;
         transition: background-color $transition-time;
@@ -41,6 +51,9 @@ $transition-time: 0.5s ease-in-out;
 
 .purple-theme {
     $theme-color: hsl(270, 50%, 50%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
     button, a {
         background-color: $theme-color;
         transition: background-color $transition-time;
@@ -54,6 +67,9 @@ $transition-time: 0.5s ease-in-out;
 
 .yellow-theme {
     $theme-color: hsl(45, 50%, 50%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
     button, a {
         background-color: $theme-color;
         transition: background-color $transition-time;
@@ -67,6 +83,9 @@ $transition-time: 0.5s ease-in-out;
 
 .green-theme {
     $theme-color: hsl(135, 50%, 50%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
     button, a {
         background-color: $theme-color;
         transition: background-color $transition-time;
@@ -80,6 +99,9 @@ $transition-time: 0.5s ease-in-out;
 
 .royal-blue-theme {
     $theme-color: hsl(225, 50%, 50%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
     button, a {
         background-color: $theme-color;
         transition: background-color $transition-time;
@@ -93,6 +115,9 @@ $transition-time: 0.5s ease-in-out;
 
 .pink-theme {
     $theme-color: hsl(315, 50%, 50%);
+    background-color: $theme-color;
+    transition: background-color $transition-time;
+
     button, a {
         background-color: $theme-color;
         transition: background-color $transition-time;
