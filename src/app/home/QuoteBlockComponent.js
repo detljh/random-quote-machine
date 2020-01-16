@@ -28,7 +28,7 @@ class QuoteBlockComponent extends React.Component {
                         </blockquote>
                         
                         <div id="quote-box-footer">
-                            <a href="twitter.com/intent/tweet" id="tweet-quote"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href="www.twitter.com/intent/tweet" id="tweet-quote"><FontAwesomeIcon icon={faTwitter}/></a>
                             <button id="new-quote" onClick={this.props.requestNewQuote}>New quote</button>
                         </div>
                     </div>
