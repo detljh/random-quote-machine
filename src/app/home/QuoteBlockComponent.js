@@ -11,6 +11,10 @@ class QuoteBlockComponent extends React.Component {
         super(props);
     }
 
+    handleClick = () => {
+        window.open(`https://twitter.com/intent/tweet?text="${this.props.quote}" - ${this.props.author}`);
+    }
+
     render() {
         return (
             <div class={`container-fluid ${this.props.theme}`}>
@@ -28,7 +32,7 @@ class QuoteBlockComponent extends React.Component {
                         </blockquote>
                         
                         <div id="quote-box-footer">
-                            <a href="www.twitter.com/intent/tweet" id="tweet-quote"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <button onClick={this.handleClick.bind(this)} id="tweet-quote"><FontAwesomeIcon icon={faTwitter}/></button>
                             <button id="new-quote" onClick={this.props.requestNewQuote}>New quote</button>
                         </div>
                     </div>
